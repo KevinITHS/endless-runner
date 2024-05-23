@@ -1,0 +1,26 @@
+.character {
+  position: relative;
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+}
+
+.character img {
+  width: 100%;
+  height: 100%;
+}
+
+.jump {
+  animation: jump-animation 0.5s ease-out;
+}
+
+@keyframes jump-animation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  } /* Adjust the jump height as needed */
+  100% {
+    transform: translateY(0);
+  }
+}
