@@ -18,7 +18,7 @@ const slideDisplay = [
   {
     crab: character1,
     title: "RED CRAB",
-    color: "#bc5a4c",
+    color: "#bc331d",
   },
   {
     crab: character2,
@@ -129,7 +129,7 @@ const About = () => {
 
   return (
     <div className="about">
-      <h1>Crab Runner</h1>
+      {/* <h1>Crab Runner</h1> */}
       <h3>
         Crab Runner is a game where you navigate different levels with various
         types of crabs.
@@ -184,7 +184,7 @@ const About = () => {
         The game is made with a "no game engine" approach and opens up
         possibilities for future development for a more refined game.
       </p>
-      <p className="uppercase"> This is currently just a prototype.</p>
+      <p className="uppercase"> The game is currently just a prototype.</p>
       <div className="faq-section">
         <button onClick={toggleFAQ}>{showFAQ ? "Hide FAQ" : "Show FAQ"}</button>
         {showFAQ && <FAQAccordion data={faqData} />}
