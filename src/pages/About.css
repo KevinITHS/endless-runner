@@ -1,0 +1,201 @@
+/* html,
+body {
+  overflow-y: scroll;
+  height: auto !important;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
+
+.about {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  min-height: 100vh;
+}
+
+.about h1 {
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+.about h3 {
+  text-transform: capitalize;
+  color: #333;
+  margin-top: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #ac0606;
+}
+
+.textBody {
+  margin-top: 100px;
+}
+
+.cube-carousel-container {
+  max-width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 40px auto;
+}
+
+.cubeSwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.button-prev,
+.button-next {
+  display: none;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.accordion-question {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordion-answer {
+  padding: 10px 0;
+  color: #333;
+  font-size: 10px;
+}
+
+.faq-accordion {
+  margin-top: 20px;
+}
+
+.faq-section {
+  margin-top: 40px;
+}
+
+.faq-section h2 {
+  margin-bottom: 10px;
+}
+
+.faq-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  font-family: "PixelFont", cursive;
+}
+
+@media (min-width: 768px) {
+  .button-prev,
+  .button-next {
+    display: block;
+  }
+}
+
+.button-prev,
+.button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.button-prev {
+  left: -60px;
+}
+
+.button-next {
+  right: -60px;
+}
+
+.button-prev img,
+.button-next img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .about h1 {
+    font-size: 24px;
+  }
+
+  .about h3 {
+    font-size: 14px;
+  }
+
+  .about h4 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about h1 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  .about h3 {
+    font-size: 13px;
+  }
+
+  .about h4 {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about h1 {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  .about h3 {
+    font-size: 12px;
+  }
+
+  .about h4 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about h1 {
+    font-size: 18px;
+    margin-top: 50px;
+  }
+
+  .about h3 {
+    font-size: 11px;
+  }
+
+  .about h4 {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 375px) {
+  .about h1 {
+    font-size: 16px;
+    margin-top: 60px;
+  }
+
+  .about h3 {
+    font-size: 10px;
+  }
+
+  .about h4 {
+    font-size: 8px;
+  }
+}
